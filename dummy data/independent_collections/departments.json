@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "620a598e7e4c8d2df21ede52",
+    "department": "College of Engineering - Mechanical Department",
+    "details": "Place your beautiful description about the department"
+  },
+  {
+    "_id": "620a598e7e4c8d2df21ede53",
+    "department": "Security Department - Guard Office",
+    "details": "Place your beautiful description about the department"
+  },
+  {
+    "_id": "620a598e7e4c8d2df21ede54",
+    "department": "OSDS - E Consultation Office",
+    "details": "Place your beautiful description about the department"
+  }
+]

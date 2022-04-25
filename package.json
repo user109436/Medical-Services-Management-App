@@ -1,0 +1,58 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.72.0",
+    "aws-sdk": "^2.1116.0",
+    "axios": "^0.25.0",
+    "babel-polyfill": "^6.26.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "client": "^0.0.1",
+    "compression": "^1.7.4",
+    "concurrently": "^7.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.2.0",
+    "googleapis": "^95.0.0",
+    "helmet": "^5.0.2",
+    "hpp": "^0.2.3",
+    "html-to-text": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "pdfmake": "^0.2.4",
+    "sharp": "^0.30.0",
+    "slugify": "^1.6.5",
+    "socket.io": "^4.4.1",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  },
+  "name": "e_consultation_app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
+    "start-nodemon": "nodemon ./server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "server": "nodemon server.js --ignore client",
+    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
+    "debug:dev": "ndb server"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "author": "Melquizedek Felix",
+  "license": "ISC",
+  "description": ""
+}

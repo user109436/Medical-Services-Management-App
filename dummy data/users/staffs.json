@@ -1,0 +1,209 @@
+[
+  {
+    "_id": "620a598e7e4c8d2df21ede64",
+    "employee_no": "M2021-100001",
+    "department_id": "620a598e7e4c8d2df21ede54",
+    "user_id": "5c8a201e2f8fb814b56fa186",
+    "name": {
+      "firstname": "Admin",
+      "lastname": "One"
+    },
+    "age": 20,
+    "photo": "admin.jpg",
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225948519",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "1646225948525", "contact": "1234567890" },
+      { "id": "1646225948315", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "620a598e7e4c8d2df21ede65",
+    "employee_no": "M2021-100021",
+    "department_id": "620a598e7e4c8d2df21ede54",
+    "user_id": "5c8a201e2f8fb814b56fa187",
+    "name": {
+      "firstname": "Encoder",
+      "lastname": "One"
+    },
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age": 20,
+    "photo": "encoder.jpg",
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225948523",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "164622948525", "contact": "1234567890" },
+      { "id": "164625948315", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "620a598e7e4c8d2df21ede66",
+    "employee_no": "M2021-100221",
+    "department_id": "620a598e7e4c8d2df21ede53",
+    "user_id": "5c8a201e2f8fb814b56fa157",
+    "name": {
+      "firstname": "Faculty",
+      "lastname": "One"
+    },
+    "sex": "female",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age": 20,
+    "photo": "faculty.jpg",
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225958513",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "164622548525", "contact": "1234567890" },
+      { "id": "164622594815", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "620a598e7e4c8d2df21ede67",
+    "employee_no": "M2021-100241",
+    "department_id": "620a598e7e4c8d2df21ede52",
+    "user_id": "5c8a201e2f8fb814b56fa158",
+    "name": {
+      "firstname": "Non Faculty",
+      "lastname": "One"
+    },
+    "sex": "female",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age": 20,
+    "photo": "non-faculty.jpg",
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225949513",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "164622594525", "contact": "1234567890" },
+      { "id": "164622594815", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "820a598e7e4c8d2df21ede64",
+    "employee_no": "M2021-100659",
+    "department_id": "620a598e7e4c8d2df21ede54",
+    "user_id": "3c8a201e2f8fb814b56fa187",
+    "name": {
+      "firstname": "Admin",
+      "lastname": "Two"
+    },
+    "age": 20,
+    "sex": "female",
+    "birthday": "2021-04-25T09:00:00Z",
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225948519",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "1646225948525", "contact": "1234567890" },
+      { "id": "1646225948315", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "820a598e7e4c8d2df21ede54",
+    "employee_no": "M2021-107027",
+    "department_id": "620a598e7e4c8d2df21ede54",
+    "user_id": "3c8a201e2f8fb814b56fa186",
+    "name": {
+      "firstname": "Encoder",
+      "lastname": "Two"
+    },
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age": 20,
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225948523",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "164622948525", "contact": "1234567890" },
+      { "id": "164625948315", "contact": "9874563210" }
+    ]
+  },
+  {
+    "_id": "520a598e7e4c8d2df21ede78",
+    "employee_no": "M2021-109228",
+    "department_id": "620a598e7e4c8d2df21ede53",
+    "user_id": "9c8a201e2f8fb814b56fa137",
+    "name": {
+      "firstname": "Faculty",
+      "lastname": "Two"
+    },
+    "sex": "female",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age": 20,
+    "civil_status": "Single",
+    "religion": "Christian",
+    "address": [
+      {
+        "id": "1646225958513",
+        "house_number": 123,
+        "street": "Mapagmahal Street",
+        "barangay": "Santiago",
+        "municipality": "Tanay",
+        "city_province": "Rizal"
+      }
+    ],
+    "contact": [
+      { "id": "164622548525", "contact": "1234567890" },
+      { "id": "164622594815", "contact": "9874563210" }
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "_id": "6202cf770e453d6789189b24",
+    "email": "johndoe@gmail.com",
+    "password": "12345678",
+    "role": "student",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "One"
+    },
+    "photo":"student1.jpg"
+  },
+  {
+    "_id": "6202d3c3a7f319479d338dfe",
+    "email": "peterparker@gmail.com",
+    "password": "12345678",
+    "role": "student",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "Two"
+    },
+    "photo":"student2.jpg"
+  },
+  {
+    "_id": "5c8a21d02f8fb814b56fa112",
+    "email": "markwallstreet@gmail.com",
+    "password": "12345678",
+    "role": "student",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "Three"
+    },
+    "photo":"student3.jpg"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa195",
+    "email": "doctor@gmail.com",
+    "password": "12345678",
+    "role": "doctor",
+    "name":{
+      "firstname":"Doctor",
+      "lastname":"One"
+  },
+  "photo":"doctor.jpg"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa196",
+    "email": "dentist@gmail.com",
+    "password": "12345678",
+    "role": "dentist",
+    "name":{
+      "firstname":"Dentist",
+      "lastname":"One"
+  },
+  "photo":"dentist.jpg"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa197",
+    "email": "nurse@gmail.com",
+    "password": "12345678",
+    "role": "nurse",
+    "name":{
+      "firstname":"Nurse",
+      "lastname":"One"
+  },
+  "photo":"nurse.jpg"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa186",
+    "email": "admin@gmail.com",
+    "password": "12345678",
+    "role": "admin",
+    "verified": true,
+    "name": {
+      "firstname": "Admin",
+      "lastname": "One"
+    },
+    "photo":"admin.jpg"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa187",
+    "email": "encoder@gmail.com",
+    "password": "12345678",
+    "role": "encoder",
+    "verified": true,
+    "name": {
+      "firstname": "Encoder",
+      "lastname": "One"
+    },
+    "photo":"encoder.jpg"
+
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa157",
+    "email": "faculty@gmail.com",
+    "password": "12345678",
+    "role": "faculty",
+    "verified": true,
+    "name": {
+      "firstname": "Faculty",
+      "lastname": "One"
+    },
+    "photo":"faculty.jpg"
+
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa158",
+    "email": "non-faculty@gmail.com",
+    "password": "12345678",
+    "role": "non-faculty",
+    "verified": true,
+    "name": {
+      "firstname": "Non Faculty",
+      "lastname": "One"
+    },
+    "photo":"non-faculty.jpg"
+
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa155",
+    "email": "system@gmail.com",
+    "password": "12345678",
+    "role": "system",
+    "verified": true
+  },
+  {
+    "_id": "3c8a201e2f8fb814b56fa187",
+    "email": "admin-two@gmail.com",
+    "password": "12345678",
+    "role": "admin",
+    "verified": true,
+    "name": {
+      "firstname": "Admin",
+      "lastname": "Two"
+    }
+  },
+  {
+    "_id": "3c8a201e2f8fb814b56fa186",
+    "email": "encoder-two@gmail.com",
+    "password": "12345678",
+    "role": "encoder",
+    "verified": true,
+    "name": {
+      "firstname": "Encoder",
+      "lastname": "Two"
+    }
+
+  },
+  {
+    "_id": "9c8a201e2f8fb814b56fa137",
+    "email": "faculty-two@gmail.com",
+    "password": "12345678",
+    "role": "faculty",
+    "verified": true,
+    "name": {
+      "firstname": "Faculty",
+      "lastname": "Two"
+    }
+  },
+  {
+    "_id": "6c8a201e2f8fb814b56fa19a",
+    "email": "doctor-two@gmail.com",
+    "password": "12345678",
+    "role": "doctor",
+    "name":{
+      "firstname":"Doctor",
+      "lastname":"Two"
+    }
+  },
+  {
+    "_id": "6c8a201e2f8fb814b56fa19b",
+    "email": "dentist-two@gmail.com",
+    "password": "12345678",
+    "role": "dentist",
+    "name":{
+      "firstname":"Dentist",
+      "lastname":"Two"
+    }
+  },
+  {
+    "_id": "6c8a201e2f8fb814b56fa19c",
+    "email": "nurse-two@gmail.com",
+    "password": "12345678",
+    "role": "nurse",
+    "name":{
+      "firstname":"Nurse",
+      "lastname":"Two"
+   }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "_id":"620a598e7e4c8d2df21ede64",
+    "student_no": "1011901038",
+    "user_id": "6202cf770e453d6789189b24",
+    "year_id": "620a598b7e4c8d2df21ede35",
+    "section_id": "620a598d7e4c8d2df21ede4a",
+    "course_id": "620a598c7e4c8d2df21ede42",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "One"
+    },
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age":20,
+    "photo":"student1.jpg",
+    "civil_status":"Single",
+    "religion":"Christian",
+    "address":[{
+      "id":"1646225948513",
+      "house_number":123,
+      "street":"Mapagmahal Street",
+      "barangay":"Santiago",
+      "municipality":"Tanay",
+      "city_province":"Rizal"
+    }],
+    "contact":[{"id":"166225948525","contact":"1234567890"}, {"id":"164225948315","contact":"9874563210"}]
+  },
+  {
+    "_id":"620a598e7e4c8d2df21ede65",
+    "student_no": "1011901039",
+    "user_id": "6202d3c3a7f319479d338dfe",
+    "year_id": "620a598b7e4c8d2df21ede36",
+    "section_id": "620a598d7e4c8d2df21ede4b",
+    "course_id": "620a598c7e4c8d2df21ede43",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "Two"
+    },
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age":20,
+    "photo":"student2.jpg",
+    "civil_status":"Single",
+    "religion":"Christian",
+    "address":[{
+      "id":"1646225948514",
+      "house_number":123,
+      "street":"Mapagmahal Street",
+      "barangay":"Santiago",
+      "municipality":"Tanay",
+      "city_province":"Rizal"
+    }],
+    "contact":[{"id":"1746225948525","contact":"1234567890"}, {"id":"2646225948315","contact":"9874563210"}]
+  },
+  {
+    "_id":"620a598e7e4c8d2df21ede66",
+    "student_no": "1011901040",
+    "user_id": "5c8a21d02f8fb814b56fa112",
+    "year_id": "620a598b7e4c8d2df21ede37",
+    "section_id": "620a598d7e4c8d2df21ede4c",
+    "course_id": "620a598c7e4c8d2df21ede44",
+    "name": {
+      "firstname": "Student",
+      "middlename": "M",
+      "lastname": "Three"
+    },
+    "sex": "male",
+    "birthday": "2021-04-25T09:00:00Z",
+    "age":20,
+    "photo":"student3.jpg",
+    "civil_status":"Single",
+    "religion":"Christian",
+    "address":[{
+      "id":"1646225948515",
+      "house_number":123,
+      "street":"Mapagmahal Street",
+      "barangay":"Santiago",
+      "municipality":"Tanay",
+      "city_province":"Rizal"
+    }],
+    "contact":[{"id":"1646245948525","contact":"1234567890"}, {"id":"164622948315","contact":"9874563210"}]
+  }
+]

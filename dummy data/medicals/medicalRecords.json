@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "6208aeec0b1e05bafb60f413",
+    "user_id": "6202cf770e453d6789189b24",
+    "physician_id": "620b37781aa7ac4144e3acf9",
+    "symptoms": [
+      { "id": "1", "symptom": "flu" },
+      { "id": "2", "symptom": "fever" }
+    ],
+    "diagnosis": [
+      { "id": "1", "diagnose": "diagnose 1" },
+      { "id": "2", "diagnose": "diagnose 2" }
+    ],
+    "laboratories": [
+      { "id": "1", "laboratory": "laboratory 1" },
+      { "id": "2", "laboratory": "laboratory 2" }
+    ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Amoxicilin 100mg 3x a day for 2 weeks"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acf9",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      },
+      {
+        "id": "2",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Paracetamol 200mg 2x a day for 1 week"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acf9",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      }
+    ],
+    "verificationToken": "49159c1d0a530a4e3ef8d7f9a94077ecfc15d57ef01b9ba8d0a0778a9a07607c"
+  },
+  {
+    "_id": "6208aeec0b1e05bafb60f414",
+    "user_id": "6202d3c3a7f319479d338dfe",
+    "physician_id": "620b37781aa7ac4144e3acfa",
+    "symptoms": [
+      { "id": "1", "symptom": "flu" },
+      { "id": "2", "symptom": "fever" }
+    ],
+    "diagnosis": [
+      { "id": "1", "diagnose": "diagnose 1" },
+      { "id": "2", "diagnose": "diagnose 2" }
+    ],
+    "laboratories": [
+      { "id": "1", "laboratory": "laboratory 1" },
+      { "id": "2", "laboratory": "laboratory 2" }
+    ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Amoxicilin 100mg 3x a day for 2 weeks"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acfa",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      }
+    ],
+    "verificationToken": "49159c1d0a530a4e3ef8d7f9a94077ecfc15d57ef01b9ba8d0a0778a9a07607c"
+  },
+  {
+    "_id": "6208aeec0b1e05bafb60f415",
+    "user_id": "5c8a201e2f8fb814b56fa187",
+    "physician_id": "620b37781aa7ac4144e3acfa",
+    "symptoms": [
+      { "id": "1", "symptom": "flu" },
+      { "id": "2", "symptom": "fever" }
+    ],
+    "diagnosis": [
+      { "id": "1", "diagnose": "diagnose 1" },
+      { "id": "2", "diagnose": "diagnose 2" }
+    ],
+    "laboratories": [
+      { "id": "1", "laboratory": "laboratory 1" },
+      { "id": "2", "laboratory": "laboratory 2" }
+    ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Amoxicilin 100mg 3x a day for 2 weeks"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acfa",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      }
+    ],
+    "verificationToken": "49159c1d0a530a4e3ef8d7f9a94077ecfc15d57ef01b9ba8d0a0778a9a07607c"
+  },
+  {
+    "_id": "6208aeec0b1e05bafb60f416",
+    "user_id": "5c8a201e2f8fb814b56fa157",
+    "physician_id": "620b37781aa7ac4144e3acfa",
+    "symptoms": [
+      { "id": "1", "symptom": "flu" },
+      { "id": "2", "symptom": "fever" }
+    ],
+    "diagnosis": [
+      { "id": "1", "diagnose": "diagnose 1" },
+      { "id": "2", "diagnose": "diagnose 2" }
+    ],
+    "laboratories": [
+      { "id": "1", "laboratory": "laboratory 1" },
+      { "id": "2", "laboratory": "laboratory 2" }
+    ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Amoxicilin 100mg 3x a day for 2 weeks"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acfa",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      }
+    ],
+    "verificationToken": "49159c1d0a530a4e3ef8d7f9a94077ecfc15d57ef01b9ba8d0a0778a9a07607c"
+  },
+  {
+    "_id": "6208aeec0b1e05bafb60f417",
+    "user_id": "5c8a201e2f8fb814b56fa186",
+    "physician_id": "620b37781aa7ac4144e3acfa",
+    "symptoms": [
+      { "id": "1", "symptom": "flu" },
+      { "id": "2", "symptom": "fever" }
+    ],
+    "diagnosis": [
+      { "id": "1", "diagnose": "diagnose 1" },
+      { "id": "2", "diagnose": "diagnose 2" }
+    ],
+    "laboratories": [
+      { "id": "1", "laboratory": "laboratory 1" },
+      { "id": "2", "laboratory": "laboratory 2" }
+    ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "medicine": [
+          {
+            "id": "5c88fa8cf4afda39709c2951",
+            "details": "Amoxicilin 100mg 3x a day for 2 weeks"
+          }
+        ],
+        "physician_id": "620b37781aa7ac4144e3acfa",
+        "createdAt": "2021-12-26T14:25:34.305+00:00"
+      }
+    ],
+    "verificationToken": "49159c1d0a530a4e3ef8d7f9a94077ecfc15d57ef01b9ba8d0a0778a9a07607c"
+  }
+]

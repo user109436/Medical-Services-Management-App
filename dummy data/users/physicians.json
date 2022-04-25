@@ -1,0 +1,71 @@
+[
+    {
+        "_id":"620b37781aa7ac4144e3acf9",
+        "user_id":"5c8a201e2f8fb814b56fa195",
+        "name":{
+            "firstname":"Doctor",
+            "lastname":"One"
+        },
+        "photo":"doctor.jpg",
+        "prc_license":"9876543211",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    },
+    {
+        "_id":"620b37781aa7ac4144e3acfa",
+        "user_id":"5c8a201e2f8fb814b56fa196",
+        "name":{
+            "firstname":"Dentist",
+            "lastname":"One"
+        },
+        "photo":"dentist.jpg",
+        "prc_license":"9876543212",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    },
+    {
+        "_id":"620b37781aa7ac4144e3acfb",
+        "user_id":"5c8a201e2f8fb814b56fa197",
+        "name":{
+            "firstname":"Nurse",
+            "lastname":"One"
+        },
+        "photo":"nurse.jpg",
+        "prc_license":"9876543213",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    },
+    {
+        "_id":"620b37781aa7ac4144e3acfc",
+        "user_id":"6c8a201e2f8fb814b56fa19a",
+        "name":{
+            "firstname":"Doctor",
+            "lastname":"Two"
+        },
+        "prc_license":"8886543211",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    },
+    {
+        "_id":"620b37781aa7ac4144e3acfd",
+        "user_id":"6c8a201e2f8fb814b56fa19b",
+        "name":{
+            "firstname":"Dentist",
+            "lastname":"Two"
+        },
+        "prc_license":"7776543212",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    },
+    {
+        "_id":"620b37781aa7ac4144e3acfe",
+        "user_id":"6c8a201e2f8fb814b56fa19c",
+        "name":{
+            "firstname":"Nurse",
+            "lastname":"Two"
+        },
+        "prc_license":"5555543213",
+        "ptr_no":"123456",
+        "details":"Place your amazing Educational Background Here"
+    }
+]

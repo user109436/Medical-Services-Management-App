@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "620a598c7e4c8d2df21ede42",
+    "course": "Computer Engineering",
+    "course_code": "CpE"
+  },
+  {
+    "_id": "620a598c7e4c8d2df21ede43",
+    "course": "Mechanical Engineering",
+    "course_code": "ME"
+  },
+  {
+    "_id": "620a598c7e4c8d2df21ede44",
+    "course": "Civil Engineering",
+    "course_code": "CE"
+  },
+  {
+    "_id": "620a598c7e4c8d2df21ede45",
+    "course": "Electrical Engineering",
+    "course_code": "EE"
+  }
+]

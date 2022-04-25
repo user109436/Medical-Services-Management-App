@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.w-full{
+    width:100%;
+}
+.active-accordion{
+    border:1px solid red;
+}
+.font-bold{
+    font-weight: 700 !important;
+}
+.blue-800{
+    background-color:#1565c0 !important;
+}
+.indigo-800{
+    background-color:#283593 !important;
+}
+.grey-800{
+    background-color:#424242 !important;
+}
+.pink-800{
+    background-color:#ad1457 !important;
+}

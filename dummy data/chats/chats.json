@@ -1,0 +1,62 @@
+[
+
+  {
+    "_id": "6202cf770e453d6789189b74",
+    "chatRoom": "6202cf770e453d6789189b84",
+    "message": "Hello! Here are my laboratory result -Admin App",
+    "files": ["lab.png", "lab.png"],
+    "seenBy": ["5c8a201e2f8fb814b56fa186"],
+    "sender": "5c8a201e2f8fb814b56fa186"
+  },
+  {
+    "_id": "6202cf770e453d6789189b54",
+    "chatRoom": "6202cf770e453d6789189b74",
+    "message": "Hello! Here are my laboratory result -John Doe",
+    "files": ["lab.png", "lab.png"],
+    "seenBy": ["6202cf770e453d6789189b24", "5c8a201e2f8fb814b56fa195"],
+    "sender": "6202cf770e453d6789189b24"
+  },
+  {
+    "_id": "6202cf770e453d6789189b14",
+    "chatRoom": "6202cf770e453d6789189b74",
+    "message": "Hi! Mr.Doe come tomorrow at 1pm -Dr. Name App",
+    "seenBy": ["5c8a201e2f8fb814b56fa195"],
+    "sender": "5c8a201e2f8fb814b56fa195"
+  },
+  {
+    "_id": "7202cf770e453d6789189b54",
+    "chatRoom": "6202cf770e453d6789189b75",
+    "message": "Hello! Dentist Mark book me tomorrow for check-up -Encoder App",
+    "files": ["lab.png", "lab.png"],
+    "seenBy": ["5c8a201e2f8fb814b56fa196", "5c8a201e2f8fb814b56fa196"],
+    "sender": "5c8a201e2f8fb814b56fa187"
+  },
+  {
+    "_id": "7202cf770e453d6789189b14",
+    "chatRoom": "6202cf770e453d6789189b75",
+    "message": "Hi! Mr.Doe come tomorrow at 1pm -Dentist Mark",
+    "seenBy": ["5c8a201e2f8fb814b56fa196"],
+    "sender": "5c8a201e2f8fb814b56fa196"
+  },
+  {
+    "_id": "6202cf770e453d6789189b75",
+    "chatRoom": "6202cf770e453d6789189b84",
+    "message": "Hello Mam, I will be your Nurse",
+    "seenBy": ["5c8a201e2f8fb814b56fa197"],
+    "sender": "5c8a201e2f8fb814b56fa197"
+  },
+  {
+    "_id": "6202cf770e453d6789189b76",
+    "chatRoom": "6202cf770e453d6789189b84",
+    "message": "Hello Mam, I will be your Dentist",
+    "seenBy": ["5c8a201e2f8fb814b56fa196"],
+    "sender": "5c8a201e2f8fb814b56fa196"
+  },
+  {
+    "_id": "6202cf770e453d6789189b77",
+    "chatRoom": "6202cf770e453d6789189b84",
+    "message": "Hello Mam, I will be your Doctor",
+    "seenBy": ["5c8a201e2f8fb814b56fa195"],
+    "sender": "5c8a201e2f8fb814b56fa195"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "Ibuprofen"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "Paracetamol",
+    "brand": "Pediatrica, Inc."
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Amoxicillin"
+  }
+]
