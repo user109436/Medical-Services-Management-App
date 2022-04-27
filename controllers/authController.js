@@ -1,5 +1,9 @@
 
 const User = require('../models/Users/userModel');
+const Physician = require('../models/Users/physicianModel');
+const Student = require('../models/Users/studentModel');
+const Staff = require('../models/Users/staffModel');
+
 const jwt = require('jsonwebtoken');
 const catchAsync = require('../utils/catchAsync');
 const { promisify } = require('util');
@@ -80,14 +84,19 @@ exports.resendEmailVerification = catchAsync(async (req, res, next) => {
     await user.save({ validateBeforeSave: false });
     const role = user.role;
     // 1. Extract User Role
-    const staff = role.includes('faculty') || role.includes('non-faculty');
+    const staffs = ['faculty', 'non-faculty', 'admin', 'encoder'];
+    const physicians = ['nurse', 'dentist', 'doctor'];
     //2. Identify what type of User(Student/Staff) & Fetch the details
     let existingAccount = '';
+    console.log(user);
     if (role.includes('student')) {
         existingAccount = await Student.findOne({ user_id: user._id });
-    } else if (staff) {
+    } else if (staffs.includes(role)) {
         existingAccount = await Staff.findOne({ user_id: user._id });
+    }else if(physicians.includes(role)){
+        existingAccount = await Physician.findOne({ user_id: user._id });
     }
+    console.log(existingAccount);
     if (!existingAccount) {
         return res.status(400).json({
             status: 'fail',

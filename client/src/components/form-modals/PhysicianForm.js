@@ -49,7 +49,7 @@ export default function PhysicianForm() {
   const physicians = ['nurse', 'dentist', 'doctor'];
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     //reset
     setMessage({ text: '', success: false });
     resetErrors(physicianForm);
@@ -59,7 +59,7 @@ export default function PhysicianForm() {
     //error validation & ignoring nested keys (name)
     let errors = 0;
     errors += hasErrors(physicianForm.name, ['middlename', 'suffix']);
-    errors += hasErrors(physicianForm, ['name', 'selectedID', 'photo', 'hide_license_field']);
+    errors += hasErrors(physicianForm, ['name', 'selectedID', 'photo', 'hide_license_field','base64Image']);
     if (!physicianForm.user_id) {
       errors++;
       setMessage({ text: `Please Select Existing Email Address`, success: false });
@@ -74,6 +74,9 @@ export default function PhysicianForm() {
       formData.append('photo', physicianForm.photo,);
       physicianForm.photo = '';
       photo = formData;
+      delete physicianForm.photo //delete photo field we do not want empty image filename
+    }else{
+      delete physicianForm.photo //delete photo field if no image is selected
     }
     if (physicianForm.selectedID) {
       res = await updateData(`api/physicians/${physicianForm.selectedID}`, physicianForm);
