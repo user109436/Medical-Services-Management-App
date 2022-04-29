@@ -31,6 +31,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { blue, red, pink, purple, green } from '@mui/material/colors';
 import axios from 'axios';
 import ChatImageForm from '../../form-modals/ChatImageForm';
+import {hasFileExtension} from '../../../utils/Utilities'
 const colors = {
     blue: blue[500],
     red: red[500],
@@ -250,17 +251,24 @@ const StandardImageList = ({ itemData }) => {
     }
     return (
         <ImageList sx={{ width: "100%", height: "80vh" }} cols={4} rowHeight={100}>
-            {itemData?.map((item, i) => (
+            {itemData?.map((item, i) => {
+                
+                let path = hasFileExtension(
+                                item
+                              )
+                                ? `/api/images/${item}`
+                                :item;
+                return (
                 <ImageListItem key={i}>
                     <img
-                        src={`/api/images/${item}`}
-                        srcSet={`/api/images/${item}`}
+                        src={path}
+                        srcSet={path}
                         alt='img'
                         loading="lazy"
-                        onClick={() => { handleClick(item) }}
+                        onClick={() => { handleClick(path) }}
                     />
                 </ImageListItem>
-            ))}
+            )})}
         </ImageList>
     );
 }

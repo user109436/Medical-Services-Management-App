@@ -37,7 +37,7 @@ import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 import DownloadIcon from '@mui/icons-material/Download';
 import InfoIcon from '@mui/icons-material/Info';
 import { blue, red, pink, purple, green } from '@mui/material/colors';
-import { formatDate, fullname, getYearSection } from '../../../utils/Utilities';
+import { formatDate, fullname, getYearSection, hasFileExtension } from '../../../utils/Utilities';
 import ChatImageForm from '../../form-modals/ChatImageForm';
 const colors = {
     blue: blue[500],
@@ -444,17 +444,24 @@ const StandardImageList = ({ itemData }) => {
     }
     return (
         <ImageList sx={{ width: "100%", height: "80vh" }} cols={4} rowHeight={100}>
-            {itemData?.map((item, i) => (
+            {itemData?.map((item, i) => {
+                
+                let path = hasFileExtension(
+                                item
+                              )
+                                ? `/api/images/${item}`
+                                :item;
+                return (
                 <ImageListItem key={i}>
                     <img
-                        src={`/api/images/${item}`}
-                        srcSet={`/api/images/${item}`}
+                        src={path}
+                        srcSet={path}
                         alt='img'
                         loading="lazy"
-                        onClick={() => { handleClick(item) }}
+                        onClick={() => { handleClick(path) }}
                     />
                 </ImageListItem>
-            ))}
+            )})}
         </ImageList>
     );
 }
