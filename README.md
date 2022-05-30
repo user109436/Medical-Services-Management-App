@@ -1,7 +1,7 @@
 ### E-Consultation-App - Medical Services Management App
 ![Mock-Up](./screenshots/mock-up-1-consult.png)
 ### Description
-E-Consultation-App is Medical Services Management System that enables University of Rizal System employees and students to consult to the University's Physician at any given time, to recommend the right treatment, medication and make prescriptions. You can use doctor@gmail.com and **12345678** as email and password to test the physician account. For Students you can use the android app(download here) and johndoe@gmail.com and **12345678** as credentials.
+E-Consultation-App is Medical Services Management System that enables University of Rizal System employees and students to consult to the University's Physician at any given time, to recommend the right treatment, medication and make prescriptions. You can use doctor@gmail.com and **12345678** as email and password to test the physician account. For Students you can use the android app [download here](https://drive.google.com/drive/folders/1ie0HsVjOIcQoWEhIW3Unc7eTSXp6y5hZ) and johndoe@gmail.com and **12345678** as credentials.
 ### Specification
 1. RESTful API
 2. S3 Bucket
